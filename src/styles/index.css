@@ -116,13 +116,13 @@ nav .user-welcome {
 }
 /* Footer css */
 footer {
+    position: absolute;
     background-color: #222;
     color: #fff;
     padding: 20px;
     text-align: center;
     bottom: 0;
     width: 100%;
-    position: absolute;
 }
 footer .footer-content {
     display: flex;

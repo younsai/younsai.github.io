@@ -23,7 +23,7 @@ const updateCartNav = () => {
     if (!existingCartLink) {
         const cartLink = document.createElement('li');
         cartLink.classList.add('cart-link');
-        cartLink.innerHTML = `<a href="cart.html">Cart (${cartItemCount})</a>`;
+        cartLink.innerHTML = `<a href="/public/cart.html">Cart (${cartItemCount})</a>`;
         navLinks.appendChild(cartLink);
     } else {
         existingCartLink.querySelector('a').textContent = `Cart (${cartItemCount})`;

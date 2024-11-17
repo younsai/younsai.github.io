@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | e-nutrition</title>
+    <link rel="stylesheet" href="../src/styles/index.css">
+    <script src="../src/scripts/cart.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="../src/assets/logo.png" alt="logo">
+            <a href="index.html">e-nutrition</a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="user-welcome" class="user-welcome"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="product-section">
+        <header>
+            <h1>Our Products</h1>
+            <p>Explore our range of top-quality nutrition products to meet your fitness goals.</p>
+        </header>
+        <div class="product-list">
+            <!-- Product Card: Whey Protein -->
+            <article class="product-card">
+                <img src="../src/assets/hydrowhey.jpg" alt="Whey Protein" />
+                <h2>Whey Protein</h2>
+                <p>High-quality protein to fuel your muscles.</p>
+                <p class="price">799.99 MAD</p>
+                <button class="buy-now" data-name="Whey Protein" data-price="799.99" data-image="../src/assets/hydrowhey.jpg">
+                    Buy Now
+                </button>
+            </article>
+
+            <!-- Product Card: Pre-Workout -->
+            <article class="product-card">
+                <img src="../src/assets/pre_workout.jpeg" alt="Pre-Workout" />
+                <h2>Pre-Workout</h2>
+                <p>Boost your energy for intense workouts.</p>
+                <p class="price">590.99 MAD</p>
+                <button class="buy-now" data-name="Pre-Workout" data-price="590.99" data-image="../src/assets/pre_workout.jpeg">
+                    Buy Now
+                </button>
+            </article>
+
+            <!-- Product Card: Caffeine -->
+            <article class="product-card">
+                <img src="../src/assets/caffeine.jpeg" alt="Caffeine" />
+                <h2>Caffeine</h2>
+                <p>Enhance your focus and performance.</p>
+                <p class="price">150.99 MAD</p>
+                <button class="buy-now" data-name="Caffeine" data-price="150.99" data-image="../src/assets/caffeine.jpeg">
+                    Buy Now
+                </button>
+            </article>
+
+            <!-- Product Card: Fat Burner -->
+            <article class="product-card">
+                <img src="../src/assets/fat_burner.jpeg" alt="Fat Burner" />
+                <h2>Fat Burner</h2>
+                <p>Supports fat loss and energy levels.</p>
+                <p class="price">490.99 MAD</p>
+                <button class="buy-now" data-name="Fat Burner" data-price="490.99" data-image="../src/assets/fat_burner.jpeg">
+                    Buy Now
+                </button>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>e-nutrition 2024 &copy; - All rights reserved</p>
+            <p>Developed by Fadlouallah Taki & Younes Saidi</p>
+        </div>
+    </footer>
+</body>
+</html>

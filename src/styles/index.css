@@ -6,6 +6,8 @@
 }
 /* Navbar css */
 nav {
+    position: sticky;
+    top: 0;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -116,7 +118,7 @@ nav .user-welcome {
 }
 /* Footer css */
 footer {
-    position: absolute;
+    position: sticky;
     background-color: #222;
     color: #fff;
     padding: 20px;

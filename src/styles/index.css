@@ -101,7 +101,7 @@ nav .user-welcome {
 /* CTA Button */
 .cta-button {
     padding: 10px 25px;
-    background-color: #ff4500;
+    background-color: #3463f9;
     color: #fff;
     border: none;
     font-weight: 500;
@@ -112,7 +112,7 @@ nav .user-welcome {
 }
 
 .cta-button:hover {
-    background-color: #e63e00;
+    background-color: #2c52cc;
 }
 /* Footer css */
 footer {
@@ -184,13 +184,13 @@ footer .footer-content span:nth-child(2) {
 
 .price {
     font-weight: bold;
-    color: #ff4500;
+    color: #3463f9;
 }
 
 .buy-now {
     margin-top: 10px;
     padding: 8px 12px;
-    background-color: #ff4500;
+    background-color: #3463f9;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -199,7 +199,7 @@ footer .footer-content span:nth-child(2) {
 }
 
 .buy-now:hover {
-    background-color: #e63e00;
+    background-color: #2c52cc;
 }
 
 /* About page css */
@@ -282,7 +282,7 @@ textarea {
 
 .submit-button {
     padding: 10px;
-    background-color: #ff4500;
+    background-color: #3463f9;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -292,7 +292,7 @@ textarea {
 }
 
 .submit-button:hover {
-    background-color: #e63e00;
+    background-color: #2c52cc;
 }
 /* Cart Page Specific Styles */
 
@@ -368,7 +368,7 @@ textarea {
 /* Remove button styling */
 .remove-item {
     padding: 8px 12px;
-    background-color: #ff4500;
+    background-color: #3463f9;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -377,7 +377,7 @@ textarea {
 }
 
 .remove-item:hover {
-    background-color: #e63e00;
+    background-color: #2c52cc;
 }
 
 /* Total Price Section */
